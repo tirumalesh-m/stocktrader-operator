@@ -3,7 +3,7 @@ name: Build and Push Operator Bundle to GHCR
 on:
   push:
     branches:
-      - feat-sentimentIntegration
+      - master
   workflow_dispatch: {}
   pull_request:
     branches:
