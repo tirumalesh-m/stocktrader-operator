@@ -49,7 +49,8 @@ endif
 
 # Image URL to use all building/pushing image targets
 # IMG ?= controller:latest
-IMG ?= ghcr.io/ibmstocktrader/stocktrader-operator:v$(VERSION)
+# IMG ?= ghcr.io/ibmstocktrader/stocktrader-operator:v$(VERSION)
+IMG ?= docker.io/ibmstocktrader/stocktrader-operator:v$(VERSION)
 
 .PHONY: all
 all: docker-build
