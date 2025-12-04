@@ -16,7 +16,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/stocktrader-operator
+  IMAGE_NAME: ${{ github.repository_owner }}/stocktrader-operator-bundle
   OPERATOR_IMAGE_NAME: ${{ github.repository_owner }}/stocktrader-operator
 
 jobs:
